@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: rgb(185, 121, 244);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: rgb(238, 238, 227);
+    height: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+.dollar{
+    font-size: 15px;
+    font-weight: bold;
+}
+#mo{
+    font-size: 20px;
+    font-weight: 500;
+}
+#zero{
+    font-weight: bold;
+}
+.plar{
+    height: 130px;
+}
+.plar p{
+    font-size: 13px;
+}
+.card{
+    box-shadow: 5px 5px 10px black;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.2);
+    z-index: 300;
+    color: white;
+    background-color: rgb(124, 12, 205);
+}
+.card:hover #Delete{
+    color: white;
+    border: 1px solid white;
+}
